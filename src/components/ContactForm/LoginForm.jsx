@@ -16,15 +16,15 @@ export const LoginForm = () => {
         password: form.elements.password.value,
       })
     );
-    // .then(resp => {
-    //   return alert(`Successfully logged in as ${resp.user.name}`);
-    // })
-    // .catch(e => {
-    //   e === 'Request failed with status code 400'
-    //     ? alert('Wrong email or password')
-    //     : alert('Wrong email or password');
-    // });
-    form.reset();
+    //   .then(resp => {
+    //     return alert(`Successfully logged in as ${resp.user.name}`);
+    //   })
+    //   .catch(error => {
+    //     error === 'Request failed with status code 400'
+    //       ? alert('Wrong email or password')
+    //       : alert('Wrong email or password');
+    //   });
+    // form.reset();
   };
 
   return (

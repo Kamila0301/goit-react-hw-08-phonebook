@@ -14,7 +14,7 @@ const handleRejected = (state, action) => {
 const handleFulfilled = (state, action) => {
   state.isLoading = false;
   state.error = null;
-  state.contacts = action.payload;
+  state.items = action.payload;
 };
 
 const handleAddFulfilled = (state, action) => {
